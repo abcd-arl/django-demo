@@ -22,6 +22,3 @@ jobs:
       - name: Check syntax
         run: |
           python workshop/manage.py check
-      - name: Run app
-        run: |
-          python workshop/manage.py runserver
